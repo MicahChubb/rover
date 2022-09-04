@@ -42,6 +42,8 @@ void loop() {
   String value = "";
   for (uint8_t i = 0; i < 16; i++)
   {
+    // You will read the value from the card (stored in block 4) into byte1 here
+    
     // This runs our decision based on each character we read in
     switch (buffer1[i]){
       case 'f':
