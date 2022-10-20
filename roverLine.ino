@@ -60,8 +60,10 @@ void loop() {
   // Value 0 = seen or last seen by sensor 1
   // Value 3000 = seen or last seen by sensor 4
   uint16_t position = qtr.readLineBlack(sensorValues);
-  qtr.read(sensorValues);
-
+  
+  //qtr.read(sensorValues);
+  qtr.readCalibrated(sensorValues);
+  
   // print out raw sensor values and the position
   for (uint8_t i = 0; i < SensorCount; i++)
   {  
