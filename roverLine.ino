@@ -20,8 +20,8 @@ const int enA = 6;
 const int enB = 3;
 const int in1 = 7;
 const int in2 = 8;
-const int in3 = 5;
-const int in4 = 4;
+const int in3 = 4;
+const int in4 = 5;
 
 // Motor Function delay time
 const int delayTime = 10;
